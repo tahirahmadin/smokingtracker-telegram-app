@@ -12,7 +12,13 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
-    "lucide-react": "^0.358.0"
+    "lucide-react": "^0.358.0",
+    "@reown/appkit": "^1.6.2",
+    "@reown/appkit-adapter-wagmi": "^1.6.2",
+    "@tanstack/react-query": "^5.62.10",
+    "node-polyfill-webpack-plugin": "^4.1.0",
+    "wagmi": "^2.14.6",
+    "webpack": "^5.92.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.64",
