@@ -2,7 +2,7 @@ import { WagmiAdapter } from "@reown/appkit-adapter-wagmi";
 import { bsc } from "@reown/appkit/networks";
 
 // Get projectId from https://cloud.reown.com
-export const projectId = "b611a95a3bb6fe6b182125bed04d4e9d";
+export const projectId = "019a002c5f21e41c54693bdfdc8c79a2";
 
 if (!projectId) {
   throw new Error("Project ID is not defined");

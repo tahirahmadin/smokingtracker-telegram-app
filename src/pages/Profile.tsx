@@ -179,7 +179,10 @@ export default function Profile() {
                       436.12 DVA
                     </p>
                   </div>
-                  <button className="bg-[#4CD7E7]/10 text-[#4CD7E7] px-4 py-2 rounded-lg">
+                  <button
+                    onClick={disconnect}
+                    className="bg-[#4CD7E7]/10 text-[#4CD7E7] px-4 py-2 rounded-lg"
+                  >
                     Withdraw
                   </button>
                 </div>
