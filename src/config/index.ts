@@ -9,9 +9,9 @@ if (!projectId) {
 }
 
 export const metadata = {
-  name: "Devap",
-  description: "Devap",
-  url: "https://test.devap.xyz", // origin must match your domain & subdomain
+  name: "DevapAi",
+  description: "Devap ai is the project to track vape and earn",
+  url: "https://devap.vercel.app", // origin must match your domain & subdomain
   icons: ["https://avatars.githubusercontent.com/u/179229932"],
 };
 
