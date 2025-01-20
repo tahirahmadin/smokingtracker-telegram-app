@@ -1,5 +1,5 @@
 import { WagmiAdapter } from "@reown/appkit-adapter-wagmi";
-import { bsc, polygon } from "@reown/appkit/networks";
+import { solana } from "@reown/appkit/networks";
 
 // Get projectId from https://cloud.reown.com
 export const projectId = "b611a95a3bb6fe6b182125bed04d4e9d";
@@ -16,7 +16,7 @@ export const metadata = {
 };
 
 // for custom networks visit -> https://docs.reown.com/appkit/react/core/custom-networks
-export const networks = [bsc];
+export const networks = [solana];
 
 //Set up the Wagmi Adapter (Config)
 export const wagmiAdapter = new WagmiAdapter({
